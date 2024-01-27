@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.clock-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.timer {
+  border: 8px solid;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.controls {
+  display: flex;
+}
+
+.session-control,
+.break-control {
+  margin: 0 20px;
+}
+
+.length-control button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.length-control span {
+  font-size: 1.5em;
+}
+
+.buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+.buttons button#start_stop {
+  background-color: #ADD8E6; /* Light blue */
+  border-color: #4682B4; /* Darker blue */
+  color: #fff;
+}
+
+.buttons button#reset {
+  background-color: #FF5722;
+  border-color: #E64A19;
+  color: #fff;
+}
